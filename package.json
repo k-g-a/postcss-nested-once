@@ -11,11 +11,13 @@
     "nested"
   ],
   "main": "index.js",
+  "typings": "index.d.ts",
   "type": "commonjs",
   "repository": "https://github.com/k-g-a/postcss-nested-once",
   "author": "Gleb Kochergin <k-g-a@users.noreply.github.com>",
   "license": "MIT",
   "private": false,
+  "files": ["index.js", "index.d.ts"],
   "engines": {
     "node": ">=10.0"
   },
