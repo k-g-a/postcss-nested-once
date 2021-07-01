@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Generates proper output for icss-utils: test-icss-compatible-output 1`] = `
+".test_parent_HASH {
+  color: red
+}
+
+  .test_parent_HASH .test_child_HASH {
+    color: green;
+  }
+
+.test_list_HASH {
+  color: red
+}
+
+.test_list_item_HASH {
+    color: green;
+  }
+
+:export {
+  parent: test_parent_HASH;
+  child: test_child_HASH;
+  list: test_list_HASH;
+  list_item: test_list_item_HASH
+}
+"
+`;
