@@ -1,0 +1,31 @@
+{
+  "name": "postcss-nested-once",
+  "version": "1.0.0",
+  "description": "Postcss plugin to unwrap nested rules (like how Sass does it), compatible with rollup-plugin-styles",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "sass",
+    "nested"
+  ],
+  "main": "index.js",
+  "type": "commonjs",
+  "repository": "https://github.com/k-g-a/postcss-nested-once",
+  "author": "Gleb Kochergin <k-g-a@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=10.0"
+  },
+  "dependencies": {
+    "postcss-nested": "^5.0.5"
+  },
+  "peerDependencies": {
+    "postcss": "^8.3.5"
+  },
+  "devDependencies": {
+    "postcss": "^8.3.5",
+    "prettier": "^2.3.2"
+  }
+}
